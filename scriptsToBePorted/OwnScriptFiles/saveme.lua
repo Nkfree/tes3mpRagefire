@@ -1,3 +1,5 @@
+-- hit a button to save a table with position in preObjects.json which gets read in contentFixer to spawn them after cellresets
+
 --saveme.lua
 -- elseif cmd[1] == "creat" and cmd[2] ~= nil and moderator then
 -- saveme.exactRef(pid, cmd[2])
