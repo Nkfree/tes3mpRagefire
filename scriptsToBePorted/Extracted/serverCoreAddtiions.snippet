@@ -1,0 +1,8 @@
+-- useful serverCore.lua addtions
+function MessageAll(message)
+    tes3mp.SendMessage(tableHelper.getAnyValue(Players).pid, message, true)
+end
+
+function MessageSelf(message, pid)
+    Players[pid]:Message(message)	
+end

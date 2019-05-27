@@ -1,0 +1,17 @@
+	-- feather buff put into baseplayer:finishlogin
+	logicHandler.RunConsoleCommandOnPlayer(self.pid, "removespell home_feather")
+		logicHandler.RunConsoleCommandOnPlayer(self.pid, "removespell hide")
+		if self.data.customVariables.currentRageLevel == nil then
+			self.data.customVariables.currentRageLevel = 1
+		end
+		
+		
+		function OnFeatherTimeExpiration(pid)
+    if Players[pid] ~= nil and Players[pid].featherTimerId ~= nil then
+
+    Players[pid].featherTimerId = nil
+    logicHandler.RunConsoleCommandOnPlayer(pid, "removespell home_feather")
+    tes3mp.SendMessage(pid, color.Gray .. "Your " .. color.BlueViolet .. "feather " .. color.Gray ..
+        "buff has worn off.\n", false)
+    end
+end
