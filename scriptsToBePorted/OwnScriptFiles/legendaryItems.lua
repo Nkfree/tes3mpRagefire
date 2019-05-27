@@ -1,3 +1,5 @@
+--disable players from looting creatures multiple times
+
 legendaryItems = {}
 
 legendaryItems.ProcessLatestKill = function(pid, refId)
