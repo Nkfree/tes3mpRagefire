@@ -1,3 +1,4 @@
+-- use https://github.com/Schnibbsel/tes3mpRagefire/blob/master/Ragefire%20Versions%20of%20other%20scripts/boyos/playerPacketHelper.lua
 
 function BasePlayer:AddRageAbility(abilityName)
 
