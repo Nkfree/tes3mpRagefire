@@ -1,5 +1,5 @@
 --  a way to add loot to killed creatures
-
+-- does https://github.com/tes3mp-scripts/ContainerFramework work with killed actors? @urm
 creatureLoot = {}
 
 
