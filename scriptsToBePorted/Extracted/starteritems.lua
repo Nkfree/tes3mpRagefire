@@ -1,4 +1,5 @@
 -- Unshared journal and starter items
+-- use this: https://github.com/Atkana/tes3mp-scripts/tree/master/0.7/kanaStartingItems
     if config.shareJournal == false and WorldInstance.data.customVariables ~= nil then
         if WorldInstance.data.customVariables.deliveredCaiusPackage ~= false then
   local item = { refId = "bk_a1_1_caiuspackage", count = 1, charge = -1,enchantmentCharge = -1, soul = "" }
