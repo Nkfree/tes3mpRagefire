@@ -1,3 +1,5 @@
+-- new version should be found here
+-- https://github.com/Boyos999/Boyos-Tes3mp-Scripts/tree/master/Dungeon%20Loot 
 local dungeonLoot = {}
 
 local jsonInterface = require("jsonInterface")
