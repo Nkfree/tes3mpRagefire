@@ -1,3 +1,6 @@
+-- cant remember
+-- stop players from getting corprus when not at that quest i guess
+
 MainQuestRequiredKills = {}
 
 MainQuestRequiredKills = function(pid) 
