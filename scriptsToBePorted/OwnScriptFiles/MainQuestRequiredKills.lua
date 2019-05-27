@@ -1,3 +1,4 @@
+--should be same result as https://github.com/Schnibbsel/tes3mpRagefire/blob/master/scriptsToBePorted/OwnScriptFiles/dagothGares.lua
 MainQuestRequiredKills = {}
 
 MainQuestRequiredKills.ProcessLatestKill = function(pid, refId)
