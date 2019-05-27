@@ -1,3 +1,4 @@
+-- check: https://github.com/Schnibbsel/tes3mpRagefire/blob/master/scriptsToBePorted/Instructions/deleteme1.txt
 -- use this in contentfixer to outsource refNumDeletionsByCell
 refNumDeletionsByCell = jsonInterface.load("refNumDeletionsByCell.json")
 
