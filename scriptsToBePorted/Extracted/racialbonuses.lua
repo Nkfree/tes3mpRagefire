@@ -1,3 +1,4 @@
+-- use https://github.com/Boyos999/Boyos-Tes3mp-Scripts/tree/master/Player%20Packet%20Helper 
 
 -- Racial Bonuses	
 	if self.data.character.race == "argonian" then
