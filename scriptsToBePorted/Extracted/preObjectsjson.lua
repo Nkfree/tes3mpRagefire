@@ -1,3 +1,7 @@
+-- compare with https://github.com/Schnibbsel/tes3mpRagefire/blob/master/scriptsToBePorted/Instructions/preobjects.txt
+-- combine with https://github.com/Schnibbsel/tes3mpRagefire/blob/master/scriptsToBePorted/OwnScriptFiles/saveme.lua
+-- maybe together with refNum stuff:
+-- https://github.com/Schnibbsel/tes3mpRagefire/blob/master/scriptsToBePorted/Instructions/deleteme1.txt
 --custom preObjects
 
 jsonInterface = require("jsonInterface")
