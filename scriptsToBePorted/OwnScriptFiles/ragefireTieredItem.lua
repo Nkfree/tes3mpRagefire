@@ -1,3 +1,4 @@
+-- this is some boyos stuff
 local ragefireTieredItem = {}
 
 jsonInterface = require("jsonInterface")
