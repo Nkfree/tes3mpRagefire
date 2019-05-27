@@ -1,3 +1,5 @@
+--  a way to add loot to killed creatures
+
 creatureLoot = {}
 
 
