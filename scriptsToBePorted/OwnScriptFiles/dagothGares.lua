@@ -1,6 +1,6 @@
 -- cant remember
 -- stop players from getting corprus when not at that quest i guess
-
+-- use this instead: https://github.com/Learwolf/tes3mp-Scripts/blob/master/tes3mp-server/server/scripts/custom/lear/prematureCorpusFix.lua
 MainQuestRequiredKills = {}
 
 MainQuestRequiredKills = function(pid) 
