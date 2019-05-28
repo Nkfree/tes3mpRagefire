@@ -1,3 +1,5 @@
+--[[ those have been added to newest corescripts
+
 1) Open up mp-stuff\lib\lua\tableHelper.lua and add these lines to it:
 
 function tableHelper.getAnyValue(inputTable)
@@ -113,8 +115,9 @@ Methods.CreateObjectAtPlayer = function(pid, refId, packetType)
 
     Methods.CreateObjectAtLocation(cell, location, refId, packetType)
 end
+]]--
 
-3) Find this line in myMod.lua:
+3) Find this line in myMod.lua: -- this is logicHandler.LoadCell
 https://github.com/TES3MP/CoreScripts/blob/0.6.2/scripts/myMod.lua#L549
 GitHub
 TES3MP/CoreScripts
