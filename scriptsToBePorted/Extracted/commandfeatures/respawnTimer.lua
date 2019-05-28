@@ -1,6 +1,7 @@
 -- check: https://pastebin.com/C6u8LcQq
 --resurrection
 -- Respawn Timer
+-- use: https://github.com/Atkana/tes3mp-scripts/tree/master/0.7/kanaRevive
 local message = logicHandler.GetChatName(self.pid) .. " " .. deathReason .. "."
     message = message .. "\n"
 	 tes3mp.SendMessage(self.pid, message, true)
