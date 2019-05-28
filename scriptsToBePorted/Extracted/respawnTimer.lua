@@ -36,3 +36,19 @@ local message = logicHandler.GetChatName(self.pid) .. " " .. deathReason .. "."
         end
     end
 end
+MainGUI = 8784956
+ 
+ 
+ 
+ 
+            elseif idGui == MainGUI then -- Main
+                if tonumber(data) == 0 and Players[pid].data.stats.healthCurrent <= 0 then --revive
+                    Players[pid]:Resurrect()
+                    return true
+ 
+                elseif tonumber(data) == 1 and Players[pid].data.stats.healthCurrent <= 0 then --wait
+                    Players[pid].ReviveMeTimer = tes3mp.CreateTimerEx("OnReviveTimeExperiation", time.seconds(60), "i", pid)
+                    tes3mp.StartTimer(Players[pid].ReviveMeTimer)
+                    return true
+                end
+            end
