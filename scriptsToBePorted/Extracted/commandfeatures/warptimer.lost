@@ -1,3 +1,4 @@
+-- was used to warp players to partymembers?
 
 function OnWarpReminderTimeExpiration(pid)
 	if Players[pid] ~= nil then
