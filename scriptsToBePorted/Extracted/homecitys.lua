@@ -1,3 +1,4 @@
+-- home and feather pastebin: https://pastebin.com/khGdzMXd
 -- Home Cities put into baseplayer:finishlogin
 	  if self.data.homecity ~= nil and config.homecitySpawns[self.data.homecity] ~= nil then
 
