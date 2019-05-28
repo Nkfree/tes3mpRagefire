@@ -1,4 +1,17 @@
-onobjectactivate changes in eventhandler
+--[[
+make customhook for everything
+
+
+OnObjectActivate(pid, cellDescription, objects, players) objects and players container lists of activated objects and players respectively.
+
+objects elements have form { uniqueIndex = ..., refId = ... }
+
+players elements have form { pid = ... }
+
+
+]]--
+
+-- onobjectactivate changes in eventhandler
 -- https://pastebin.com/NWsKhjF5
 
 
