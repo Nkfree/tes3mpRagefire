@@ -1,3 +1,4 @@
+--meditate pastebin: https://pastebin.com/vz4DQFaT
 --meditate command
 elseif cmd[1] == "med" or cmd[1] == "meditate" then
 					if Players[pid].data.customVariables.meditateTutorial == nil or Players[pid].data.customVariables.meditateTutorial == false then
