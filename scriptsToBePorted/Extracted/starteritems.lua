@@ -19,3 +19,13 @@
 
         end
 	end
+
+
+
+eventHandler.OnPlayerEndCharGen = function(pid)
+    if Players[pid] ~= nil and Players[pid]:IsLoggedIn() then
+        Players[pid]:SaveEquipment()
+        Players[pid].currentCustomMenu = "appearance"
+        menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+    end
+end
