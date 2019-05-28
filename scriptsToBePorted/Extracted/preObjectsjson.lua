@@ -4,6 +4,9 @@
 -- https://github.com/Schnibbsel/tes3mpRagefire/blob/master/scriptsToBePorted/Instructions/deleteme1.txt
 --custom preObjects
 
+
+-- check: https://pastebin.com/KJQFxYPU
+
 jsonInterface = require("jsonInterface")
 
 local preexistingObjects = {}
