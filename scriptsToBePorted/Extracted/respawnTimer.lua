@@ -1,3 +1,4 @@
+-- check: https://pastebin.com/C6u8LcQq
 --resurrection
 -- Respawn Timer
 local message = logicHandler.GetChatName(self.pid) .. " " .. deathReason .. "."
